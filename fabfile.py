@@ -1,4 +1,4 @@
-from fabric.api import *
+from fabric.api import lcd, local
 import os, sys
  
 project_dir = os.path.join(os.path.dirname(sys.argv[0]))
