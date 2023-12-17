@@ -11,6 +11,5 @@ from mock import PropertyMock
 
 
 class Testscanpdf:
-
     def setup(self):
         self.p = P.ScanPdf()
