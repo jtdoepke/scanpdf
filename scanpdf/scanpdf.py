@@ -45,7 +45,6 @@ import docopt
 import subprocess
 import time
 import glob
-from itertools import combinations
 
 
 class ScanPdf(object):

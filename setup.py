@@ -3,7 +3,6 @@ from setuptools import setup, find_packages
 
 import io
 import os
-import scanpdf
 from scanpdf.version import __version__
 from setuptools import Command
 
