@@ -47,10 +47,10 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Scan PDF'
-copyright = u'2014, Virantha N. Ekanayake'
+project = 'Scan PDF'
+copyright = '2014, Virantha N. Ekanayake'
 
-# The version info for the project you're documenting, acts as replacement for
+# The version info for the project yo're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
@@ -59,10 +59,10 @@ version = ''
 try:
     release = pkg_resources.get_distribution('scanpdf').version
 except pkg_resources.DistributionNotFound:
-    print 'To build the documentation, The distribution information of scanpdf'
-    print 'Has to be available.  Either install the package into your'
-    print 'development environment or run "setup.py develop" to setup the'
-    print 'metadata.  A virtualenv is recommended!'
+    print('To build the documentation, The distribution information of scanpdf')
+    print('Has to be available.  Either install the package into your')
+    print('development environment or run "setup.py develop" to setup the')
+    print('metadata.  A virtualenv is recommended!')
     sys.exit(1)
 del pkg_resources
 
@@ -210,8 +210,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'scanpdf.tex', u'Scan PDF Documentation',
-   u'Virantha N. Ekanayake', 'manual'),
+  ('index', 'scanpdf.tex', 'Scan PDF Documentation',
+   'Virantha N. Ekanayake', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -240,8 +240,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'scanpdf', u'Scan PDF Documentation',
-     [u'Author'], 1)
+    ('index', 'scanpdf', 'Scan PDF Documentation',
+     ['Author'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -254,8 +254,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'scanpdf', u'Scan PDF Documentation',
-   u'Author', 'scanpdf', 'One line description of project.',
+  ('index', 'scanpdf', 'Scan PDF Documentation',
+   'Author', 'scanpdf', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -275,13 +275,13 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'scanpdf'
-epub_author = u'Author'
-epub_publisher = u'Author'
-epub_copyright = u'2013, Author'
+epub_title = 'scanpdf'
+epub_author = 'Author'
+epub_publisher = 'Author'
+epub_copyright = '2013, Author'
 
 # The basename for the epub file. It defaults to the project name.
-#epub_basename = u'scanpdf'
+#epub_basename = 'scanpdf'
 
 # The HTML theme for the epub output. Since the default themes are not optimized
 # for small screen space, using the same theme for HTML and epub output is
